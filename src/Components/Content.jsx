@@ -28,7 +28,7 @@ function Content(props) {
           <div className="qq px-5 py-2 h-auto rounded-md border-2 shadow-inner md:hidden ">
             <div className="flex item items-center">
               <div className="img flex-1">
-                <img src={img} className="h-10 " alt="React" srcset="" />
+                <img src={img} className="h-10 " alt="React"/>
               </div>
               <div className=" dec flex-1">
                 <p className="flex-1 text-md text-blue-400 font-bold">Sports</p>

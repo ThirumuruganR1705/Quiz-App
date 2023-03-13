@@ -5,7 +5,6 @@ import Header from '../Components/Header';
 function DashboardPage() {
     return ( 
         <React.StrictMode>
-            <Header/>
             <DashBoard/>
         </React.StrictMode>
      );
