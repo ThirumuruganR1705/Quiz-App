@@ -23,13 +23,13 @@ function Header() {
   };
 
   let menuCloser = () => {
-    $(".menu-items").hide();
+    $(".menu-items").hide(1000);
   };
 
   return (
     <React.StrictMode>
       <div className="h-1/3 w-screen bg-blue-400 ">
-        <div className="hidden menu-items w-full h-full bg-blue-300 z-10 absolute ">
+        <div className="hidden menu-items w-4/5 h-full bg-blue-300 z-10 absolute ">
           <div className="closer flex justify-end">
             <p
               onClick={menuCloser}
